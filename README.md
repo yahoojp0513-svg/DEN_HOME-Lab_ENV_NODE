@@ -7,8 +7,8 @@
 [日本語](#日本語) | [English](#english)
 
 > **Hardware revision notice / 基板リビジョンに関する注意**  
-> This README documents the GPIO assignments in the published **v2.0 beta7** sketch. The prototype custom PCB routes I²C to GPIO20/21 instead, so it requires matching firmware changes. Check the `#define` values against your hardware before flashing.  
-> このREADMEは公開中の **v2.0 beta7** のGPIO割り当てに基づきます。試作発注したオリジナルPCBではI²C配線にGPIO20/21を使う設計のため、そのままのコードでは一致しません。実装・書き込み前にコード内の `#define` と基板の接続を照合してください。
+> This README documents the GPIO assignments in the published **v2.0 beta7** sketch.
+> このREADMEは公開中の **v2.0 beta7** のGPIO割り当てに基づきます。
 
 ---
 
