@@ -33,7 +33,7 @@
  *   - Selectable serial monitor output
  *
  * W5500 Ethernet ENV standard pins:
- *   MISO = GPIO20
+ *   MISO = GPIO7
  *   CS   = GPIO1
  *   SCLK = GPIO3
  *   MOSI = GPIO4
