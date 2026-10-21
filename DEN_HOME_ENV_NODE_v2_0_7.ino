@@ -145,21 +145,28 @@ const char* WIFI_PASS = "YOUR_WIFI_PASSWORD";
 // 7. IPアドレス方式
 // 1 = 固定IP / 0 = DHCP
 // Wi-Fi / Ethernet 共通
+
 //
 // 7. IP Address Configuration
 // 1 = Static IP / 0 = DHCP
 // Applies to both Wi-Fi and Ethernet.
+
 // ------------------------------------------------------------
 #define USE_STATIC_IP 1
 
 // ------------------------------------------------------------
 // 8. IPアドレス
+// ★★★私の環境での利用アドレスです．各自でご変更ください．★★★
+//
 // 管理用 ESP32     : 192.168.1.201 ～ 192.168.1.205
 // Wi-Fi ENV        : 192.168.1.211 ～ 192.168.1.229
 // Ethernet ENV     : 192.168.1.231 ～ 192.168.1.249
 // ★ Ethernetノードでは .231～.249 を使用すること
 //
 // 8. IP Address
+// ★★★This is the address for use in my environment. ★★★
+// ★★★Please change it yourself.★★★
+//
 // Management ESP32 : 192.168.1.201 - 192.168.1.205
 // Wi-Fi ENV        : 192.168.1.211 - 192.168.1.229
 // Ethernet ENV     : 192.168.1.231 - 192.168.1.249
